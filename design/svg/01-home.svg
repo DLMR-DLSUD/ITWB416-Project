@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="3710" viewBox="0 0 1920 3710">
+<defs><linearGradient id="grad1" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad2" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad3" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad4" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad5" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad6" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad7" gradientUnits="userSpaceOnUse" x1="691.61" y1="126.8" x2="691.61" y2="381.8"><stop offset="0%" stop-color="#5E656D"/><stop offset="30%" stop-color="#A3AAB2"/><stop offset="52%" stop-color="#3A3F45"/><stop offset="72%" stop-color="#7C848D"/><stop offset="100%" stop-color="#2C3035"/></linearGradient>
+<linearGradient id="grad8" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad9" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad10" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad11" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad12" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad13" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad14" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad15" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad16" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad17" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad18" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad19" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad20" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad21" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad22" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad23" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad24" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad25" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad26" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad27" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad28" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad29" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad30" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad31" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad32" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad33" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad34" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad35" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad36" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad37" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#5E656D"/><stop offset="50%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad38" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad39" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad40" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#5E656D"/><stop offset="50%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad41" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad42" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad43" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad44" gradientUnits="userSpaceOnUse" x1="610.94" y1="3172.88" x2="610.94" y2="3233.88"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="40%" stop-color="#DDE0E4"/><stop offset="60%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#F4F5F7"/></linearGradient>
+<linearGradient id="grad45" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#4A5057"/><stop offset="50%" stop-color="#2C3035"/><stop offset="100%" stop-color="#111214"/></linearGradient>
+<linearGradient id="grad46" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad47" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad48" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#5E656D"/></linearGradient>
+<linearGradient id="grad49" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="60%" stop-color="#EEF0F2"/><stop offset="100%" stop-color="#D6DADF"/></linearGradient>
+<linearGradient id="grad50" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#E3E6EA"/><stop offset="55%" stop-color="#B7BDC4"/><stop offset="75%" stop-color="#DDE0E4"/><stop offset="100%" stop-color="#9AA1A9"/></linearGradient>
+<linearGradient id="grad51" gradientUnits="userSpaceOnUse" x1="475.5" y1="3414.45" x2="475.5" y2="3470.45"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="40%" stop-color="#DDE0E4"/><stop offset="60%" stop-color="#9AA1A9"/><stop offset="100%" stop-color="#F4F5F7"/></linearGradient></defs>
+<rect x="0" y="0" width="1920" height="3710" fill="#DDE0E4"/>
+<rect x="0" y="0" width="1920" height="3710" fill="#DDE0E4"/>
+<rect x="0" y="0" width="1920" height="3710" fill="#111214"/>
+<g id="01-side-rail">
+<rect x="0" y="0" width="56" height="1080" fill="url(#grad1)"/>
+<rect x="21" y="20" width="14" height="14" fill="url(#grad2)" transform="rotate(45 28 27)"/>
+<text transform="translate(31.95 674.06) rotate(-90)" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" letter-spacing="3.3" fill="#BFC4CA">COLLEGE OF INFORMATION &amp; COMPUTER STUDIES</text>
+<rect x="15.39" y="913.22" width="25.2" height="14" fill="#00703C"/>
+<text x="21.39" y="924.28" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#FFFFFF" xml:space="preserve">01</text>
+<text x="21.39" y="949.58" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#9AA1A9" xml:space="preserve">02</text>
+<text x="21.39" y="974.87" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#9AA1A9" xml:space="preserve">03</text>
+<text x="21.39" y="1000.17" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#9AA1A9" xml:space="preserve">04</text>
+<text x="21.39" y="1025.47" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#9AA1A9" xml:space="preserve">05</text>
+<text x="21.39" y="1050.76" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#9AA1A9" xml:space="preserve">06</text>
+</g>
+<rect x="56" y="0" width="1864" height="3710" fill="#DDE0E4"/>
+<g id="02-header-nav">
+<rect x="56" y="0" width="1864" height="65" fill="url(#grad3)"/>
+<rect x="56" y="64" width="1864" height="1" fill="#BFC4CA"/>
+<rect x="80" y="13" width="38" height="38" fill="#111214"/>
+<text x="86" y="35.77" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="10" letter-spacing="0.5" fill="#FFFFFF" xml:space="preserve">CICS</text>
+<text x="130" y="32.29" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="16" fill="#111214" xml:space="preserve">CICS</text>
+<text x="130" y="44.57" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="10" letter-spacing="1.4" fill="#5E656D" xml:space="preserve">DLSU-DASMARIÑAS</text>
+<rect x="1245.77" y="0" width="91.97" height="64" fill="url(#grad4)"/>
+<rect x="1245.77" y="0" width="1" height="64" fill="#BFC4CA"/>
+<rect x="1245.77" y="61" width="91.97" height="3" fill="#00703C"/>
+<text x="1264.77" y="35.73" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="12" letter-spacing="0.96" fill="#BFC4CA" xml:space="preserve">01</text>
+<text x="1287.09" y="35.73" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="0.96" fill="#FFFFFF" xml:space="preserve">HOME</text>
+<rect x="1337.73" y="0" width="1" height="64" fill="#BFC4CA"/>
+<text x="1356.73" y="35.73" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="12" letter-spacing="0.96" fill="#9AA1A9" xml:space="preserve">02</text>
+<text x="1379.06" y="35.73" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="0.96" fill="#5E656D" xml:space="preserve">ABOUT</text>
+<rect x="1437.88" y="0" width="1" height="64" fill="#BFC4CA"/>
+<text x="1456.88" y="35.73" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="12" letter-spacing="0.96" fill="#9AA1A9" xml:space="preserve">03</text>
+<text x="1479.2" y="35.73" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="0.96" fill="#5E656D" xml:space="preserve">PROGRAMS</text>
+<rect x="1562.48" y="0" width="1" height="64" fill="#BFC4CA"/>
+<text x="1581.48" y="35.73" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="12" letter-spacing="0.96" fill="#9AA1A9" xml:space="preserve">04</text>
+<text x="1603.81" y="35.73" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="0.96" fill="#5E656D" xml:space="preserve">FACULTY</text>
+<rect x="1678.94" y="0" width="1" height="64" fill="#BFC4CA"/>
+<text x="1697.94" y="35.73" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="12" letter-spacing="0.96" fill="#9AA1A9" xml:space="preserve">05</text>
+<text x="1720.27" y="35.73" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="0.96" fill="#5E656D" xml:space="preserve">SERVICES</text>
+<rect x="1803.55" y="0" width="1" height="64" fill="#BFC4CA"/>
+<text x="1822.55" y="35.73" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="12" letter-spacing="0.96" fill="#9AA1A9" xml:space="preserve">06</text>
+<text x="1844.88" y="35.73" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="0.96" fill="#5E656D" xml:space="preserve">CONTACT</text>
+</g>
+<g id="03-chrome-bar">
+<rect x="56" y="65" width="1864" height="24" fill="url(#grad5)"/>
+<rect x="56" y="65" width="1864" height="1" fill="#FFFFFF"/>
+<rect x="56" y="88" width="1864" height="1" fill="#5E656D"/>
+</g>
+<g id="04-college-of-information-and-computer-stud">
+<rect x="56" y="89" width="1864" height="643.78" fill="url(#grad6)"/>
+<rect x="56" y="731.78" width="1864" height="1" fill="#BFC4CA"/>
+<text x="412" y="166.64" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="2.4" fill="#9AA1A9" xml:space="preserve">&gt;&gt;&gt; CICS.INIT</text>
+<text x="412" y="328.25" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="200" letter-spacing="-9" fill="#111214" xml:space="preserve">CI</text>
+<text x="575.61" y="328.25" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="200" letter-spacing="-9" fill="url(#grad7)" xml:space="preserve">CS</text>
+<text x="412" y="400.61" font-family="SpaceGrotesk-Medium, 'Space Grotesk'" font-weight="500" font-size="30" fill="#111214" xml:space="preserve">Code the future. Lead with purpose.</text>
+<text x="412" y="443.1" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">The College of Information and Computer Studies of De La Salle</text>
+<text x="412" y="469.49" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">University-Dasmariñas, where Lasallian values meet tomorrow's</text>
+<text x="412" y="495.88" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">technology.</text>
+<rect x="412" y="531.47" width="460" height="2" fill="#111214"/>
+<rect x="412" y="572.91" width="460" height="1" fill="#BFC4CA"/>
+<text x="412" y="556.11" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="1.44" fill="#5E656D" xml:space="preserve">CAMPUS</text>
+<text x="731.59" y="557.9" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#111214" xml:space="preserve">Dasmariñas, Cavite</text>
+<rect x="412" y="613.34" width="460" height="1" fill="#BFC4CA"/>
+<text x="412" y="596.55" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="1.44" fill="#5E656D" xml:space="preserve">PROGRAMS</text>
+<text x="786.19" y="598.34" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#111214" xml:space="preserve">BSIT · BSCS</text>
+<rect x="412" y="653.78" width="460" height="1" fill="#BFC4CA"/>
+<text x="412" y="636.98" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="1.44" fill="#5E656D" xml:space="preserve">ACCREDITATION</text>
+<rect x="684.39" y="630.34" width="8" height="8" fill="#00703C"/>
+<text x="700.39" y="638.77" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#111214" xml:space="preserve">Level III · until 2030</text>
+<rect x="1302" y="423.78" width="78" height="76" fill="url(#grad8)"/>
+<rect x="1306" y="427.78" width="70" height="60" fill="url(#grad9)"/>
+<rect x="1306" y="427.78" width="70" height="1" fill="#BFC4CA"/>
+<rect x="1306" y="486.78" width="70" height="1" fill="#BFC4CA"/>
+<rect x="1306" y="427.78" width="1" height="60" fill="#BFC4CA"/>
+<rect x="1375" y="427.78" width="1" height="60" fill="#BFC4CA"/>
+<text x="1314" y="444.26" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#5E656D" xml:space="preserve">ESC</text>
+<text x="1336.5" y="452.14" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#111214" xml:space="preserve">?</text>
+<rect x="1388" y="423.78" width="78" height="76" fill="url(#grad10)"/>
+<rect x="1392" y="427.78" width="70" height="60" fill="url(#grad11)"/>
+<rect x="1392" y="427.78" width="70" height="1" fill="#BFC4CA"/>
+<rect x="1392" y="486.78" width="70" height="1" fill="#BFC4CA"/>
+<rect x="1392" y="427.78" width="1" height="60" fill="#BFC4CA"/>
+<rect x="1461" y="427.78" width="1" height="60" fill="#BFC4CA"/>
+<text x="1400" y="444.26" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#5E656D" xml:space="preserve">F1</text>
+<text x="1418" y="452.14" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#111214" xml:space="preserve">IT</text>
+<rect x="1474" y="423.78" width="90" height="76" fill="url(#grad12)"/>
+<rect x="1478" y="427.78" width="82" height="60" fill="url(#grad13)"/>
+<rect x="1478" y="427.78" width="82" height="1" fill="#BFC4CA"/>
+<rect x="1478" y="486.78" width="82" height="1" fill="#BFC4CA"/>
+<rect x="1478" y="427.78" width="1" height="60" fill="#BFC4CA"/>
+<rect x="1559" y="427.78" width="1" height="60" fill="#BFC4CA"/>
+<text x="1486" y="444.26" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#5E656D" xml:space="preserve">F2</text>
+<text x="1510" y="452.14" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#111214" xml:space="preserve">CS</text>
+<rect x="1302" y="507.78" width="164" height="76" fill="#111214"/>
+<rect x="1306" y="511.78" width="156" height="60" fill="url(#grad14)"/>
+<rect x="1306" y="511.78" width="156" height="1" fill="#5E656D"/>
+<rect x="1306" y="570.78" width="156" height="1" fill="#5E656D"/>
+<rect x="1306" y="511.78" width="1" height="60" fill="#5E656D"/>
+<rect x="1461" y="511.78" width="1" height="60" fill="#5E656D"/>
+<text x="1314" y="528.26" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#9AA1A9" xml:space="preserve">ALT</text>
+<text x="1330" y="547.21" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#FFFFFF" xml:space="preserve">Visit Campus</text>
+<rect x="1474" y="507.78" width="90" height="76" fill="url(#grad15)"/>
+<rect x="1478" y="511.78" width="82" height="60" fill="url(#grad16)"/>
+<rect x="1478" y="511.78" width="82" height="1" fill="#BFC4CA"/>
+<rect x="1478" y="570.78" width="82" height="1" fill="#BFC4CA"/>
+<rect x="1478" y="511.78" width="1" height="60" fill="#BFC4CA"/>
+<rect x="1559" y="511.78" width="1" height="60" fill="#BFC4CA"/>
+<text x="1486" y="528.26" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#5E656D" xml:space="preserve">F3</text>
+<text x="1492" y="536.14" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#111214" xml:space="preserve">Tracks</text>
+<rect x="1302" y="591.78" width="164" height="76" fill="url(#grad17)"/>
+<rect x="1306" y="595.78" width="156" height="60" fill="url(#grad18)"/>
+<rect x="1306" y="595.78" width="156" height="1" fill="#BFC4CA"/>
+<rect x="1306" y="654.78" width="156" height="1" fill="#BFC4CA"/>
+<rect x="1306" y="595.78" width="1" height="60" fill="#BFC4CA"/>
+<rect x="1461" y="595.78" width="1" height="60" fill="#BFC4CA"/>
+<text x="1314" y="612.26" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#5E656D" xml:space="preserve">CTRL</text>
+<text x="1339" y="631.21" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#111214" xml:space="preserve">Learn More</text>
+<rect x="1474" y="591.78" width="90" height="76" fill="#111214"/>
+<rect x="1478" y="595.78" width="82" height="60" fill="url(#grad19)"/>
+<rect x="1478" y="595.78" width="82" height="1" fill="#5E656D"/>
+<rect x="1478" y="654.78" width="82" height="1" fill="#5E656D"/>
+<rect x="1478" y="595.78" width="1" height="60" fill="#5E656D"/>
+<rect x="1559" y="595.78" width="1" height="60" fill="#5E656D"/>
+<text x="1486" y="612.26" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#9AA1A9" xml:space="preserve">↵</text>
+<text x="1496.5" y="631.21" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#FFFFFF" xml:space="preserve">Apply</text>
+<rect x="1546" y="601.78" width="8" height="8" fill="#00703C"/>
+</g>
+<g id="05-about-the-college">
+<rect x="412" y="833.86" width="35.61" height="29.44" fill="url(#grad20)"/>
+<text x="422" y="853.29" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#FFFFFF" xml:space="preserve">01</text>
+<text x="461.61" y="861.12" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="36" fill="#111214" xml:space="preserve">About the College</text>
+<rect x="788.56" y="848.08" width="690.63" height="1" fill="#BFC4CA"/>
+<text x="1493.19" y="852.31" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="2.4" fill="#9AA1A9" xml:space="preserve">&gt;&gt;&gt;</text>
+<rect x="1536" y="845.58" width="28" height="6" fill="url(#grad21)"/>
+<rect x="1536" y="845.58" width="28" height="1" fill="#9AA1A9"/>
+<rect x="1536" y="850.58" width="28" height="1" fill="#9AA1A9"/>
+<rect x="1536" y="845.58" width="1" height="6" fill="#9AA1A9"/>
+<rect x="1563" y="845.58" width="1" height="6" fill="#9AA1A9"/>
+<text x="412" y="922.54" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="19" fill="#111214" xml:space="preserve">CICS is DLSU-D's home for technology education, built on</text>
+<text x="412" y="953.89" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="19" fill="#111214" xml:space="preserve">academic excellence, innovation and strong ethics.</text>
+<text x="412" y="999.86" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">Students, faculty and industry partners work together on real</text>
+<text x="412" y="1026.25" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">technological problems. Through its Computer Science and Information</text>
+<text x="412" y="1052.64" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">Technology departments, the college prepares future leaders who make</text>
+<text x="412" y="1079.03" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">meaningful contributions to the digital world.</text>
+<rect x="412" y="1139.63" width="136.64" height="2" fill="#111214"/>
+<text x="412" y="1134.06" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="13" letter-spacing="0.78" fill="#111214" xml:space="preserve">READ OUR STORY →</text>
+<rect x="998" y="900.38" width="566" height="243.98" fill="url(#grad22)"/>
+<rect x="998" y="900.38" width="566" height="1" fill="#111214"/>
+<rect x="998" y="1143.36" width="566" height="1" fill="#111214"/>
+<rect x="998" y="900.38" width="1" height="243.98" fill="#111214"/>
+<rect x="1563" y="900.38" width="1" height="243.98" fill="#111214"/>
+<text x="1027" y="943.01" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="1.92" fill="#9AA1A9" xml:space="preserve">// MISSION.TXT</text>
+<text x="1027" y="983.29" font-family="SpaceGrotesk-Regular, 'Space Grotesk'" font-weight="400" font-size="22" fill="#FFFFFF" xml:space="preserve">Equip students with deep understanding,</text>
+<text x="1027" y="1012.98" font-family="SpaceGrotesk-Regular, 'Space Grotesk'" font-weight="400" font-size="22" fill="#FFFFFF" xml:space="preserve">innovative capability and strong ethical</text>
+<text x="1027" y="1042.67" font-family="SpaceGrotesk-Regular, 'Space Grotesk'" font-weight="400" font-size="22" fill="#FFFFFF" xml:space="preserve">foundations in information and computer</text>
+<text x="1027" y="1072.35" font-family="SpaceGrotesk-Regular, 'Space Grotesk'" font-weight="400" font-size="22" fill="#FFFFFF" xml:space="preserve">sciences.</text>
+<text x="1027" y="1108.56" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="13" fill="#BFC4CA" xml:space="preserve">Summary of the CICS mission.</text>
+<text x="1217.38" y="1108.56" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="13" fill="#BFC4CA" xml:space="preserve">Read the full mission and vision →</text>
+</g>
+<g id="06-programs-overview">
+<rect x="56" y="1240.36" width="1864" height="630.2" fill="#F4F5F7"/>
+<rect x="412" y="1341.44" width="35.61" height="29.44" fill="url(#grad23)"/>
+<text x="422" y="1360.87" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#FFFFFF" xml:space="preserve">02</text>
+<text x="461.61" y="1368.7" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="36" fill="#111214" xml:space="preserve">Programs Overview</text>
+<rect x="806.17" y="1355.66" width="673.02" height="1" fill="#BFC4CA"/>
+<text x="1493.19" y="1359.89" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="2.4" fill="#9AA1A9" xml:space="preserve">&gt;&gt;&gt;</text>
+<rect x="1536" y="1353.16" width="28" height="6" fill="url(#grad24)"/>
+<rect x="1536" y="1353.16" width="28" height="1" fill="#9AA1A9"/>
+<rect x="1536" y="1358.16" width="28" height="1" fill="#9AA1A9"/>
+<rect x="1536" y="1353.16" width="1" height="6" fill="#9AA1A9"/>
+<rect x="1563" y="1353.16" width="1" height="6" fill="#9AA1A9"/>
+<text x="412" y="1406.75" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">Two programs, four tracks. Pick your access level.</text>
+<rect x="412" y="1454.34" width="566" height="320.22" fill="url(#grad25)"/>
+<rect x="412" y="1454.34" width="566" height="1" fill="#BFC4CA"/>
+<rect x="412" y="1773.56" width="566" height="1" fill="#BFC4CA"/>
+<rect x="412" y="1454.34" width="1" height="320.22" fill="#BFC4CA"/>
+<rect x="977" y="1454.34" width="1" height="320.22" fill="#BFC4CA"/>
+<rect x="413" y="1455.34" width="564" height="47.8" fill="url(#grad26)"/>
+<text x="431" y="1482.98" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="1.2" fill="#FFFFFF" xml:space="preserve">ACCESS · UNDERGRAD</text>
+<rect x="915" y="1475.23" width="44" height="8" fill="#DDE0E4"/>
+<text x="431" y="1565.33" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="46" fill="#111214" xml:space="preserve">IT</text>
+<text x="431" y="1596.47" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="21" fill="#111214" xml:space="preserve">BS Information Technology</text>
+<rect x="913" y="1525.14" width="46" height="36" fill="url(#grad27)"/>
+<rect x="913" y="1525.14" width="46" height="1" fill="#9AA1A9"/>
+<rect x="913" y="1560.14" width="46" height="1" fill="#9AA1A9"/>
+<rect x="913" y="1525.14" width="1" height="36" fill="#9AA1A9"/>
+<rect x="958" y="1525.14" width="1" height="36" fill="#9AA1A9"/>
+<rect x="919" y="1531.14" width="15.5" height="10.5" fill="#BFC4CA"/>
+<rect x="937.5" y="1531.14" width="15.5" height="10.5" fill="#BFC4CA"/>
+<rect x="919" y="1544.64" width="15.5" height="10.5" fill="#BFC4CA"/>
+<rect x="937.5" y="1544.64" width="15.5" height="10.5" fill="#BFC4CA"/>
+<text x="431" y="1630.66" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#5E656D" xml:space="preserve">Hands-on training in current IT concepts and applications. Tracks in Network</text>
+<text x="431" y="1653.76" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#5E656D" xml:space="preserve">Technology or Software Technology.</text>
+<rect x="431" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="436" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="442" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="447" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="452" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="458" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="463" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="468" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="474" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="479" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="484" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="490" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="495" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="500" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="506" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="511" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="516" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="522" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="527" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="532" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="538" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="543" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="548" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="554" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="559" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="564" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="570" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="575" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="580" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="586" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="591" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="596" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="602" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="607" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="612" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="618" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="623" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="628" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="634" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="639" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="644" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="650" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="655" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="660" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="666" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="671" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="676" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="682" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="687" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="692" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="698" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="703" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="708" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="714" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="719" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="724" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="730" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="735" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="740" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="746" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="751" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="756" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="762" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="767" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="772" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="778" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="783" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="788" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="794" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="799" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="804" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="810" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="815" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="820" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="826" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="831" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="836" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="842" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="847" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="852" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="858" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="863" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="868" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="874" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="879" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="884" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="890" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="895" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="900" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="906" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="911" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="916" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="922" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="927" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="932" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="938" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="943" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="948" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="954" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="413" y="1734.42" width="564" height="1" fill="#BFC4CA"/>
+<text x="431" y="1758.48" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#5E656D" xml:space="preserve">ID · BSIT-01</text>
+<text x="867.14" y="1758.48" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#5E656D" xml:space="preserve">View program →</text>
+<rect x="998" y="1454.34" width="566" height="320.22" fill="url(#grad28)"/>
+<rect x="998" y="1454.34" width="566" height="1" fill="#BFC4CA"/>
+<rect x="998" y="1773.56" width="566" height="1" fill="#BFC4CA"/>
+<rect x="998" y="1454.34" width="1" height="320.22" fill="#BFC4CA"/>
+<rect x="1563" y="1454.34" width="1" height="320.22" fill="#BFC4CA"/>
+<rect x="999" y="1455.34" width="564" height="47.8" fill="url(#grad29)"/>
+<text x="1017" y="1482.98" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="1.2" fill="#FFFFFF" xml:space="preserve">ACCESS · UNDERGRAD</text>
+<rect x="1501" y="1475.23" width="44" height="8" fill="#DDE0E4"/>
+<text x="1017" y="1565.33" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="46" fill="#111214" xml:space="preserve">CS</text>
+<text x="1017" y="1596.47" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="21" fill="#111214" xml:space="preserve">BS Computer Science</text>
+<rect x="1499" y="1525.14" width="46" height="36" fill="url(#grad30)"/>
+<rect x="1499" y="1525.14" width="46" height="1" fill="#9AA1A9"/>
+<rect x="1499" y="1560.14" width="46" height="1" fill="#9AA1A9"/>
+<rect x="1499" y="1525.14" width="1" height="36" fill="#9AA1A9"/>
+<rect x="1544" y="1525.14" width="1" height="36" fill="#9AA1A9"/>
+<rect x="1505" y="1531.14" width="15.5" height="10.5" fill="#BFC4CA"/>
+<rect x="1523.5" y="1531.14" width="15.5" height="10.5" fill="#BFC4CA"/>
+<rect x="1505" y="1544.64" width="15.5" height="10.5" fill="#BFC4CA"/>
+<rect x="1523.5" y="1544.64" width="15.5" height="10.5" fill="#BFC4CA"/>
+<text x="1017" y="1630.66" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#5E656D" xml:space="preserve">Computing theory, abstract reasoning and research. Tracks in Robotics or</text>
+<text x="1017" y="1653.76" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#5E656D" xml:space="preserve">Mobile and Game Development.</text>
+<rect x="1017" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1022" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1028" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1033" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1038" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1044" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1049" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1054" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1060" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1065" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1070" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1076" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1081" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1086" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1092" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1097" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1102" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1108" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1113" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1118" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1124" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1129" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1134" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1140" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1145" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1150" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1156" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1161" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1166" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1172" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1177" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1182" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1188" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1193" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1198" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1204" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1209" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1214" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1220" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1225" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1230" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1236" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1241" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1246" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1252" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1257" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1262" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1268" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1273" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1278" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1284" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1289" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1294" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1300" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1305" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1310" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1316" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1321" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1326" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1332" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1337" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1342" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1348" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1353" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1358" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1364" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1369" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1374" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1380" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1385" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1390" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1396" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1401" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1406" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1412" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1417" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1422" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1428" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1433" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1438" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1444" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1449" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1454" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1460" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1465" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1470" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1476" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1481" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1486" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1492" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1497" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1502" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1508" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1513" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1518" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1524" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="1529" y="1682.42" width="2" height="34" fill="#111214"/>
+<rect x="1534" y="1682.42" width="4" height="34" fill="#111214"/>
+<rect x="1540" y="1682.42" width="1" height="34" fill="#111214"/>
+<rect x="999" y="1734.42" width="564" height="1" fill="#BFC4CA"/>
+<text x="1017" y="1758.48" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#5E656D" xml:space="preserve">ID · BSCS-02</text>
+<text x="1453.14" y="1758.48" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#5E656D" xml:space="preserve">View program →</text>
+</g>
+<g id="07-announcements-events">
+<rect x="412" y="1971.64" width="35.61" height="29.44" fill="url(#grad31)"/>
+<text x="422" y="1991.07" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#FFFFFF" xml:space="preserve">03</text>
+<text x="461.61" y="1998.9" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="36" fill="#111214" xml:space="preserve">Announcements &amp; Events</text>
+<rect x="915.97" y="1985.86" width="563.22" height="1" fill="#BFC4CA"/>
+<text x="1493.19" y="1990.09" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="2.4" fill="#9AA1A9" xml:space="preserve">&gt;&gt;&gt;</text>
+<rect x="1536" y="1983.36" width="28" height="6" fill="url(#grad32)"/>
+<rect x="1536" y="1983.36" width="28" height="1" fill="#9AA1A9"/>
+<rect x="1536" y="1988.36" width="28" height="1" fill="#9AA1A9"/>
+<rect x="1536" y="1983.36" width="1" height="6" fill="#9AA1A9"/>
+<rect x="1563" y="1983.36" width="1" height="6" fill="#9AA1A9"/>
+<text x="412" y="2036.96" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#5E656D" xml:space="preserve">Latest updates, deadlines, seminars and competitions.</text>
+<rect x="827.27" y="2023.16" width="191.53" height="18" fill="#BFC4CA"/>
+<text x="833.27" y="2037.38" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13.6" fill="#2C3035" xml:space="preserve">Dates are sample data.</text>
+<rect x="412" y="2084.55" width="1152" height="374.52" fill="#111214"/>
+<rect x="412" y="2084.55" width="1152" height="1" fill="#2C3035"/>
+<rect x="412" y="2458.06" width="1152" height="1" fill="#2C3035"/>
+<rect x="412" y="2084.55" width="1" height="374.52" fill="#2C3035"/>
+<rect x="1563" y="2084.55" width="1" height="374.52" fill="#2C3035"/>
+<rect x="413" y="2085.55" width="1150" height="38.14" fill="url(#grad33)"/>
+<rect x="429" y="2098.55" width="10" height="10" fill="#9AA1A9"/>
+<rect x="445" y="2098.55" width="10" height="10" fill="#9AA1A9"/>
+<rect x="461" y="2098.55" width="10" height="10" fill="#9AA1A9"/>
+<text x="1261.88" y="2108.61" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" letter-spacing="1.32" fill="#9AA1A9" xml:space="preserve">cics@dlsud:~/announcements $ tail -f</text>
+<rect x="431" y="2200.92" width="1114" height="1" fill="#2C3035"/>
+<text x="431" y="2173.01" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">11.24</text>
+<rect x="507" y="2158.23" width="64.81" height="20.14" fill="#00703C"/>
+<text x="513" y="2172.29" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#FFFFFF" xml:space="preserve">DEADLINE</text>
+<text x="629" y="2163.12" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#FFFFFF" xml:space="preserve">Online enlistment for 2nd semester closes</text>
+<text x="629" y="2182.76" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" fill="#9AA1A9" xml:space="preserve">Registrar · all CICS programs</text>
+<text x="1475.44" y="2173.01" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#BFC4CA" xml:space="preserve">details →</text>
+<rect x="431" y="2267.16" width="1114" height="1" fill="#2C3035"/>
+<text x="431" y="2239.24" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">11.28</text>
+<rect x="507" y="2224.47" width="58.2" height="20.14" fill="#BFC4CA"/>
+<text x="513" y="2238.53" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#111214" xml:space="preserve">SEMINAR</text>
+<text x="629" y="2229.35" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#FFFFFF" xml:space="preserve">Intro to Cloud Computing</text>
+<text x="629" y="2249" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" fill="#9AA1A9" xml:space="preserve">Industry talk · College AVR · 1:00 PM</text>
+<text x="1475.44" y="2239.24" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#BFC4CA" xml:space="preserve">details →</text>
+<rect x="431" y="2333.39" width="1114" height="1" fill="#2C3035"/>
+<text x="431" y="2305.48" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">12.03</text>
+<rect x="507" y="2290.7" width="58.2" height="20.14" fill="#BFC4CA"/>
+<text x="513" y="2304.76" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#111214" xml:space="preserve">CONTEST</text>
+<text x="629" y="2295.59" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#FFFFFF" xml:space="preserve">Inter-college Hackathon: sign-ups open</text>
+<text x="629" y="2315.23" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" fill="#9AA1A9" xml:space="preserve">Teams of 3–4 · 24-hour build</text>
+<text x="1475.44" y="2305.48" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#BFC4CA" xml:space="preserve">details →</text>
+<rect x="431" y="2399.63" width="1114" height="1" fill="#2C3035"/>
+<text x="431" y="2371.71" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">12.10</text>
+<rect x="507" y="2356.94" width="45" height="20.14" fill="#BFC4CA"/>
+<text x="513" y="2371" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#111214" xml:space="preserve">EVENT</text>
+<text x="629" y="2361.82" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#FFFFFF" xml:space="preserve">CICS Week: Tech Expo &amp; Capstone Showcase</text>
+<text x="629" y="2381.47" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" fill="#9AA1A9" xml:space="preserve">Open to all students and guests</text>
+<text x="1475.44" y="2371.71" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#BFC4CA" xml:space="preserve">details →</text>
+<text x="431" y="2428.05" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">&gt;</text>
+<rect x="629" y="2416.05" width="9" height="16" fill="#BFC4CA"/>
+</g>
+<g id="08-student-achievements">
+<rect x="56" y="2555.06" width="1864" height="517.02" fill="url(#grad34)"/>
+<rect x="412" y="2656.14" width="35.61" height="29.44" fill="url(#grad35)"/>
+<text x="422" y="2675.57" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13" fill="#111214" xml:space="preserve">04</text>
+<text x="461.61" y="2683.4" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="36" fill="#FFFFFF" xml:space="preserve">Student Achievements</text>
+<rect x="870.97" y="2670.36" width="608.22" height="1" fill="#5E656D"/>
+<text x="1493.19" y="2674.59" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="2.4" fill="#9AA1A9" xml:space="preserve">&gt;&gt;&gt;</text>
+<rect x="1536" y="2667.86" width="28" height="6" fill="url(#grad36)"/>
+<rect x="1536" y="2667.86" width="28" height="1" fill="#9AA1A9"/>
+<rect x="1536" y="2672.86" width="28" height="1" fill="#9AA1A9"/>
+<rect x="1536" y="2667.86" width="1" height="6" fill="#9AA1A9"/>
+<rect x="1563" y="2667.86" width="1" height="6" fill="#9AA1A9"/>
+<text x="412" y="2721.46" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#BFC4CA" xml:space="preserve">Awards, certifications and competition wins from CICS students.</text>
+<rect x="902.5" y="2707.66" width="134.41" height="18" fill="#BFC4CA"/>
+<text x="908.5" y="2721.88" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="13.6" fill="#2C3035" xml:space="preserve">Sample figures.</text>
+<polygon points="547,2769.05 612,2806.55 612,2881.55 547,2919.05 482,2881.55 482,2806.55" fill="url(#grad37)"/>
+<polygon points="547,2776.05 606,2810.05 606,2878.05 547,2912.05 488,2878.05 488,2810.05" fill="url(#grad38)"/>
+<text x="527.08" y="2845.32" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="28" fill="#111214" xml:space="preserve">1st</text>
+<text x="528.28" y="2871.12" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" letter-spacing="0.88" fill="#111214" xml:space="preserve">PLACE</text>
+<text x="469.83" y="2947.64" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="16" fill="#FFFFFF" xml:space="preserve">Regional Hackathon</text>
+<text x="450.73" y="2969.28" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">BSCS team, smart-campus app</text>
+<polygon points="841,2769.05 906,2806.55 906,2881.55 841,2919.05 776,2881.55 776,2806.55" fill="#111214"/>
+<polygon points="841,2776.05 900,2810.05 900,2878.05 841,2912.05 782,2878.05 782,2810.05" fill="url(#grad39)"/>
+<text x="814.33" y="2845.32" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="28" fill="#FFFFFF" xml:space="preserve">40+</text>
+<text x="807.33" y="2871.12" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" letter-spacing="0.88" fill="#FFFFFF" xml:space="preserve">CERTIFIED</text>
+<text x="753.11" y="2947.64" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="16" fill="#FFFFFF" xml:space="preserve">Industry Certifications</text>
+<text x="737.7" y="2969.28" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">Networking and cloud credentials</text>
+<polygon points="1135,2769.05 1200,2806.55 1200,2881.55 1135,2919.05 1070,2881.55 1070,2806.55" fill="url(#grad40)"/>
+<polygon points="1135,2776.05 1194,2810.05 1194,2878.05 1135,2912.05 1076,2878.05 1076,2810.05" fill="url(#grad41)"/>
+<text x="1110.58" y="2845.32" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="28" fill="#111214" xml:space="preserve">Top</text>
+<text x="1127.52" y="2871.12" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" letter-spacing="0.88" fill="#111214" xml:space="preserve">10</text>
+<text x="1045.41" y="2947.64" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="16" fill="#FFFFFF" xml:space="preserve">Programming Olympiad</text>
+<text x="1069.72" y="2969.28" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">National finalist, BSIT</text>
+<polygon points="1429,2769.05 1494,2806.55 1494,2881.55 1429,2919.05 1364,2881.55 1364,2806.55" fill="#111214"/>
+<polygon points="1429,2776.05 1488,2810.05 1488,2878.05 1429,2912.05 1370,2878.05 1370,2810.05" fill="url(#grad42)"/>
+<text x="1398.03" y="2845.32" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="28" fill="#FFFFFF" xml:space="preserve">Best</text>
+<text x="1406.55" y="2871.12" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" letter-spacing="0.88" fill="#FFFFFF" xml:space="preserve">THESIS</text>
+<text x="1366.06" y="2947.64" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="16" fill="#FFFFFF" xml:space="preserve">Capstone Award</text>
+<text x="1342.14" y="2969.28" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="13" fill="#9AA1A9" xml:space="preserve">AI-assisted flood monitoring</text>
+</g>
+<g id="09-cta-press-enter-to-begin">
+<rect x="56" y="3072.08" width="1864" height="285.38" fill="url(#grad43)"/>
+<text x="412" y="3159.72" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="12" letter-spacing="2.4" fill="#BFC4CA" xml:space="preserve">&gt;&gt;&gt; READY.EXE</text>
+<text x="412" y="3221.07" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="48" fill="#FFFFFF" xml:space="preserve">Press</text>
+<text x="549.33" y="3221.07" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="48" fill="url(#grad44)" xml:space="preserve">Enter</text>
+<text x="684.73" y="3221.07" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="48" fill="#FFFFFF" xml:space="preserve">to begin.</text>
+<text x="412" y="3259.47" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#BFC4CA" xml:space="preserve">Apply to CICS, see the campus in person, or talk to a counselor</text>
+<text x="412" y="3285.86" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="16" fill="#BFC4CA" xml:space="preserve">about the right program for you.</text>
+<rect x="1013" y="3176.77" width="164" height="76" fill="#111214"/>
+<rect x="1017" y="3180.77" width="156" height="60" fill="url(#grad45)"/>
+<rect x="1017" y="3180.77" width="156" height="1" fill="#5E656D"/>
+<rect x="1017" y="3239.77" width="156" height="1" fill="#5E656D"/>
+<rect x="1017" y="3180.77" width="1" height="60" fill="#5E656D"/>
+<rect x="1172" y="3180.77" width="1" height="60" fill="#5E656D"/>
+<text x="1025" y="3197.25" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#9AA1A9" xml:space="preserve">↵</text>
+<text x="1054.5" y="3216.19" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#FFFFFF" xml:space="preserve">Apply Now</text>
+<rect x="1159" y="3186.77" width="8" height="8" fill="#00703C"/>
+<rect x="1185" y="3176.77" width="164" height="76" fill="url(#grad46)"/>
+<rect x="1189" y="3180.77" width="156" height="60" fill="url(#grad47)"/>
+<rect x="1189" y="3180.77" width="156" height="1" fill="#BFC4CA"/>
+<rect x="1189" y="3239.77" width="156" height="1" fill="#BFC4CA"/>
+<rect x="1189" y="3180.77" width="1" height="60" fill="#BFC4CA"/>
+<rect x="1344" y="3180.77" width="1" height="60" fill="#BFC4CA"/>
+<text x="1197" y="3197.25" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#5E656D" xml:space="preserve">ALT</text>
+<text x="1213" y="3216.19" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#111214" xml:space="preserve">Visit Campus</text>
+<rect x="1357" y="3176.77" width="207" height="76" fill="url(#grad48)"/>
+<rect x="1361" y="3180.77" width="199" height="60" fill="url(#grad49)"/>
+<rect x="1361" y="3180.77" width="199" height="1" fill="#BFC4CA"/>
+<rect x="1361" y="3239.77" width="199" height="1" fill="#BFC4CA"/>
+<rect x="1361" y="3180.77" width="1" height="60" fill="#BFC4CA"/>
+<rect x="1559" y="3180.77" width="1" height="60" fill="#BFC4CA"/>
+<text x="1369" y="3197.25" font-family="JetBrainsMono-Medium, 'JetBrains Mono'" font-weight="500" font-size="9" letter-spacing="0.9" fill="#5E656D" xml:space="preserve">TAB</text>
+<text x="1375" y="3216.19" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="15" fill="#111214" xml:space="preserve">Talk to a Counselor</text>
+</g>
+<g id="10-footer">
+<rect x="56" y="3357.45" width="1864" height="352.33" fill="#111214"/>
+<rect x="56" y="3357.45" width="1864" height="10" fill="url(#grad50)"/>
+<rect x="56" y="3357.45" width="1864" height="1" fill="#FFFFFF"/>
+<rect x="56" y="3366.45" width="1864" height="1" fill="#5E656D"/>
+<text x="412" y="3458.69" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="44" letter-spacing="-1.32" fill="#BFC4CA" xml:space="preserve">CI</text>
+<text x="449.31" y="3458.69" font-family="SpaceGrotesk-Bold, 'Space Grotesk'" font-weight="700" font-size="44" letter-spacing="-1.32" fill="url(#grad51)" xml:space="preserve">CS</text>
+<text x="412" y="3493.48" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">College of Information and Computer Studies</text>
+<text x="412" y="3516.57" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">Purificacion Borromeo Hall</text>
+<text x="412" y="3539.66" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">De La Salle University-Dasmariñas</text>
+<text x="412" y="3562.76" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">Dasmariñas, Cavite, Philippines</text>
+<text x="893.41" y="3434.09" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="12" letter-spacing="1.92" fill="#9AA1A9" xml:space="preserve">PAGES</text>
+<text x="893.41" y="3469.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">01 Home</text>
+<text x="893.41" y="3497.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">02 About Us</text>
+<text x="893.41" y="3525.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">03 Academic Programs</text>
+<text x="893.41" y="3553.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">04 Faculty &amp; Staff</text>
+<text x="893.41" y="3581.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">05 Student Services</text>
+<text x="893.41" y="3609.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">06 Contact Us</text>
+<text x="1248.7" y="3434.09" font-family="JetBrainsMono-Bold, 'JetBrains Mono'" font-weight="700" font-size="12" letter-spacing="1.92" fill="#9AA1A9" xml:space="preserve">CONNECT</text>
+<text x="1248.7" y="3469.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">Facebook · CICSSG</text>
+<text x="1248.7" y="3497.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">Instagram · CICSSG</text>
+<text x="1248.7" y="3525.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">DLSU-D Website</text>
+<text x="1248.7" y="3553.07" font-family="Inter-Regular, 'Inter'" font-weight="400" font-size="14" fill="#BFC4CA" xml:space="preserve">Send an inquiry</text>
+<rect x="388" y="3658.64" width="1200" height="1" fill="#2C3035"/>
+<text x="412" y="3688.7" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#5E656D" xml:space="preserve">© 2026 CICS · DLSU-D</text>
+<text x="1425.39" y="3688.7" font-family="JetBrainsMono-Regular, 'JetBrains Mono'" font-weight="400" font-size="11" fill="#5E656D" xml:space="preserve">ITWB416 class project</text>
+</g>
+</svg>

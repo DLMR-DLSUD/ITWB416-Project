@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CICS Mood Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  /* Flat colors + one set of silver gradients for anything metal. */
+  :root{
+    --chrome-1:#F4F5F7; --chrome-2:#DDE0E4; --chrome-3:#BFC4CA; --steel:#9AA1A9;
+    --gunmetal:#5E656D; --graphite:#2C3035; --black:#111214; --white:#FFFFFF; --dlsud:#00703C;
+    /* Silver gradients: the only gradients allowed. Same stops every time so they're easy to rebuild in Illustrator */
+    --metal:linear-gradient(180deg,#FFFFFF 0%,#E3E6EA 35%,#B7BDC4 55%,#DDE0E4 75%,#9AA1A9 100%);
+    --metal-soft:linear-gradient(180deg,#FFFFFF 0%,#EEF0F2 60%,#D6DADF 100%);
+    --metal-dark:linear-gradient(180deg,#4A5057 0%,#2C3035 50%,#111214 100%);
+    --metal-text:linear-gradient(180deg,#5E656D 0%,#A3AAB2 30%,#3A3F45 52%,#7C848D 72%,#2C3035 100%);
+    --f-head:'Space Grotesk',sans-serif; --f-body:'Inter',sans-serif; --f-mono:'JetBrains Mono',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--chrome-2);color:var(--black);font-family:var(--f-body);line-height:1.6}
+  .wrap{max-width:1200px;margin:0 auto;padding:56px 24px}
+  .tag{font-family:var(--f-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gunmetal)}
+  h1,h2,h3{font-family:var(--f-head);line-height:1.05}
+  h2{font-size:28px;margin:8px 0 24px}
+  section{margin-top:80px}
+  .grid{display:grid;gap:20px}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .g4{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+  .lead{color:var(--gunmetal);max-width:680px;margin-top:16px}
+  .note{font-size:14px;color:var(--gunmetal);max-width:760px;margin-top:16px}
+
+  /* ===== Signature 1: chrome bar (silver gradient) ===== */
+  .chrome{height:24px;background:var(--metal);border-top:1px solid var(--white);border-bottom:1px solid var(--gunmetal)}
+  .chrome i{display:none}
+
+  /* ===== Signature 2: mega type, black + silver gradient ===== */
+  .mega{font-family:var(--f-head);font-weight:700;font-size:clamp(90px,17vw,210px);line-height:.82;letter-spacing:-.04em}
+  .silver{background:var(--metal-text);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+  /* ===== Signature 3: keycaps (flat: base square + offset top face) ===== */
+  .key{display:inline-grid;place-items:center;position:relative;min-width:72px;height:72px;padding:0 14px 8px;
+    background:linear-gradient(180deg,#9AA1A9,#5E656D);font-family:var(--f-mono);font-weight:700;font-size:15px;color:var(--black);cursor:pointer;text-decoration:none;user-select:none}
+  .key::before{content:"";position:absolute;inset:4px 4px 12px 4px;background:var(--metal-soft);border:1px solid var(--chrome-3);z-index:0}
+  .key span{position:relative;z-index:1}
+  .key.dark{background:var(--black);color:var(--white)}
+  .key.dark::before{background:var(--metal-dark);border-color:var(--gunmetal)}
+  .key.wide{min-width:150px}
+  .key:hover::before{inset:8px 4px 8px 4px}
+  .key .sub{position:absolute;z-index:1;top:10px;left:12px;font-size:9px;font-weight:500;color:var(--gunmetal);letter-spacing:.1em}
+  .key.dark .sub{color:var(--steel)}
+  .key.go::after{content:"";position:absolute;z-index:1;top:10px;right:10px;width:8px;height:8px;background:var(--dlsud)}
+
+  /* ===== Hero mock ===== */
+  .hero{display:grid;grid-template-columns:56px 1fr;background:var(--metal-soft);border:1px solid var(--chrome-3);overflow:hidden}
+  .rail{background:var(--metal-dark);color:var(--steel);display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 0;font-family:var(--f-mono);font-size:11px}
+  .rail .v{writing-mode:vertical-rl;transform:rotate(180deg);letter-spacing:.3em;text-transform:uppercase;color:var(--chrome-3)}
+  .rail ol{list-style:none;text-align:center;line-height:2.2}
+  .rail li.on{color:var(--white);background:var(--dlsud);padding:0 6px}
+  .stage{position:relative}
+  .topnav{display:flex;justify-content:space-between;align-items:stretch;border-bottom:1px solid var(--chrome-3)}
+  .brand{display:flex;align-items:center;gap:10px;padding:14px 24px;font-family:var(--f-head);font-weight:700}
+  .brand i{width:34px;height:34px;background:var(--black);color:var(--white);display:grid;place-items:center;font-style:normal;font-family:var(--f-mono);font-size:10px}
+  .tabs{display:flex;font-family:var(--f-mono);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+  .tabs a{padding:0 18px;display:flex;align-items:center;border-left:1px solid var(--chrome-3);color:var(--gunmetal)}
+  .tabs a b{color:var(--steel);font-weight:500;margin-right:6px}
+  .tabs a.on{background:var(--black);color:var(--white)}
+  .stage .content{display:grid;grid-template-columns:1.25fr 1fr;gap:24px;padding:40px 32px 32px}
+  .stage .tagline{font-family:var(--f-head);font-size:26px;font-weight:500;margin:22px 0 10px;max-width:520px}
+  .stage p.body{color:var(--gunmetal);max-width:500px}
+  .spec{margin-top:24px;border-top:2px solid var(--black);font-family:var(--f-mono);font-size:12px;max-width:440px}
+  .spec div{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--chrome-3)}
+  .spec span:first-child{color:var(--gunmetal);text-transform:uppercase;letter-spacing:.12em}
+  .keys{display:grid;grid-template-columns:repeat(3,auto);gap:8px;align-content:end;justify-content:end}
+  .keys .wide{grid-column:span 2}
+  .stage .chrome{position:absolute;right:0;top:120px;width:38%}
+  @media (max-width:860px){.stage .content{grid-template-columns:1fr}.keys{justify-content:start}.tabs a:not(.on){display:none}.stage .chrome{display:none}}
+
+  /* ===== Program "access badge" cards ===== */
+  .badge{background:var(--metal-soft);border:1px solid var(--chrome-3);position:relative}
+  .badge .head{background:var(--metal-dark);color:var(--white);padding:14px 18px;display:flex;justify-content:space-between;align-items:center;font-family:var(--f-mono);font-size:12px;letter-spacing:.1em}
+  .badge .slot{width:44px;height:8px;background:var(--chrome-2)}
+  .badge .bd{padding:20px 18px;display:grid;grid-template-columns:1fr auto;gap:14px}
+  .badge h3{font-size:22px}
+  .badge .code{font-family:var(--f-mono);font-size:44px;font-weight:700;line-height:1;color:var(--black)}
+  .chip{width:46px;height:36px;background:var(--metal);border:1px solid var(--steel);display:grid;grid-template-columns:1fr 1fr;gap:3px;padding:5px}
+  .chip i{background:var(--chrome-3)}
+  .badge p{grid-column:1/-1;color:var(--gunmetal);font-size:14px}
+  .barcode{height:34px;margin:0 18px 18px;background:repeating-linear-gradient(90deg,var(--black) 0 2px,transparent 2px 5px,var(--black) 5px 9px,transparent 9px 11px,var(--black) 11px 12px,transparent 12px 16px)}
+  .badge .foot{display:flex;justify-content:space-between;padding:10px 18px;border-top:1px solid var(--chrome-3);font-family:var(--f-mono);font-size:11px;color:var(--gunmetal)}
+
+  /* ===== Announcements as terminal log ===== */
+  .term{background:var(--black);color:var(--chrome-3);font-family:var(--f-mono);font-size:13px}
+  .term .bar{display:flex;justify-content:space-between;padding:10px 16px;background:var(--metal-dark);color:var(--steel);font-size:11px;letter-spacing:.12em}
+  .term .bar i{display:inline-block;width:10px;height:10px;background:var(--steel);margin-right:6px}
+  .term ul{list-style:none;padding:12px 16px}
+  .term li{display:grid;grid-template-columns:70px 110px 1fr;gap:10px;padding:8px 0;border-bottom:1px solid var(--graphite)}
+  .term .d{color:var(--steel)} .term .t{color:var(--white)}
+  .term .k{color:var(--black);background:var(--chrome-3);padding:0 6px;justify-self:start;font-size:11px}
+  .term .k.g{background:var(--dlsud);color:var(--white)}
+  .term .cur{display:inline-block;width:9px;height:16px;background:var(--chrome-3);vertical-align:middle}
+  @media (max-width:640px){.term li{grid-template-columns:60px 1fr}.term li .t{grid-column:1/-1}}
+
+  /* ===== Achievement hex medals ===== */
+  .hex{width:120px;height:138px;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);background:linear-gradient(180deg,#5E656D,#9AA1A9 50%,#5E656D);display:grid;place-items:center}
+  .hex div{width:108px;height:124px;clip-path:inherit;background:var(--metal);display:grid;place-items:center;text-align:center;font-family:var(--f-mono);font-size:11px;letter-spacing:.08em}
+  .hex b{display:block;font-family:var(--f-head);font-size:26px;letter-spacing:0}
+  .hex.dark{background:var(--black)} .hex.dark div{background:var(--metal-dark);color:var(--white)}
+  .medals{display:flex;gap:16px;flex-wrap:wrap}
+
+  /* swatches */
+  .sw{background:var(--chrome-1);border:1px solid var(--chrome-3)}
+  .sw div{height:90px}
+  .sw p{padding:10px 12px;font-family:var(--f-mono);font-size:11px;color:var(--gunmetal)}
+  .sw b{display:block;font-family:var(--f-body);font-size:13px;color:var(--black)}
+  .g8{grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+
+  .panel{background:var(--metal-soft);border:1px solid var(--chrome-3);padding:22px}
+  .rules{columns:2;column-gap:32px;color:var(--graphite);font-size:14px;padding-left:18px}
+  .rules li{margin:6px 0;break-inside:avoid}
+  @media (max-width:640px){.rules{columns:1}}
+  .sitemap h3{font-size:18px;margin-bottom:12px}
+  .sitemap ol{padding-left:18px;color:var(--gunmetal);font-size:14px}
+  footer{margin-top:80px;font-family:var(--f-mono);font-size:12px;color:var(--gunmetal)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="tag">// ITWB416 · Design direction v0.7</p>
+  <h1 class="mega" style="font-size:clamp(64px,12vw,140px)">CICS<span class="silver">/MOOD</span></h1>
+  <div class="chrome" style="max-width:420px;margin-top:18px"><i></i><i></i><i></i><i></i><i></i></div>
+  <p class="lead">Silver first. The page is built like a piece of hardware: brushed-metal stripes, keyboard keys, ID badges and a terminal screen. Instead of the usual hero, cards and buttons, every part of the site borrows from the objects IT and CS students actually use. Anything metal (keys, bars, badges, medals, big lettering) uses one shared set of silver gradients. Everything else stays flat.</p>
+
+  <section>
+    <p class="tag">01 · Palette</p><h2>Silver scale + black, DLSU-D green as a signal light</h2>
+    <div class="grid g8">
+      <div class="sw"><div style="background:#FFFFFF"></div><p><b>White</b>#FFFFFF</p></div>
+      <div class="sw"><div style="background:#F4F5F7"></div><p><b>Chrome 1</b>#F4F5F7 · panels</p></div>
+      <div class="sw"><div style="background:#DDE0E4"></div><p><b>Chrome 2</b>#DDE0E4 · page bg</p></div>
+      <div class="sw"><div style="background:#BFC4CA"></div><p><b>Chrome 3</b>#BFC4CA · lines</p></div>
+      <div class="sw"><div style="background:#9AA1A9"></div><p><b>Steel</b>#9AA1A9 · key base</p></div>
+      <div class="sw"><div style="background:#5E656D"></div><p><b>Gunmetal</b>#5E656D · body text</p></div>
+      <div class="sw"><div style="background:#2C3035"></div><p><b>Graphite</b>#2C3035</p></div>
+      <div class="sw"><div style="background:#111214"></div><p><b>Black</b>#111214 · headings</p></div>
+      <div class="sw"><div style="background:#00703C"></div><p><b>DLSU-D Green</b>#00703C · "on" light only</p></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="tag">02 · Hero preview</p><h2>Home: mega type, keyboard, spec sheet</h2>
+    <div class="hero">
+      <aside class="rail">
+        <span>◆</span>
+        <span class="v">College of Information &amp; Computer Studies</span>
+        <ol><li class="on">01</li><li>02</li><li>03</li><li>04</li><li>05</li><li>06</li></ol>
+      </aside>
+      <div class="stage">
+        <div class="topnav">
+          <div class="brand"><i>CICS</i>DLSU-D</div>
+          <nav class="tabs"><a class="on"><b>01</b>Home</a><a><b>02</b>About</a><a><b>03</b>Programs</a><a><b>04</b>Faculty</a><a><b>05</b>Services</a><a><b>06</b>Contact</a></nav>
+        </div>
+        <div class="chrome"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="content">
+          <div>
+            <div class="mega">CI<span class="silver">CS</span></div>
+            <p class="tagline">Code the future. Lead with purpose.</p>
+            <p class="body">Where Lasallian values meet tomorrow's technology.</p>
+            <div class="spec">
+              <div><span>Campus</span><span>Dasmariñas, Cavite</span></div>
+              <div><span>Programs</span><span>BSIT · BSCS · BSEMC</span></div>
+              <div><span>Status</span><span>■ Enrollment open</span></div>
+            </div>
+          </div>
+          <div class="keys">
+            <a class="key"><span class="sub">ESC</span><span>?</span></a>
+            <a class="key"><span class="sub">F1</span><span>IT</span></a>
+            <a class="key"><span class="sub">F2</span><span>CS</span></a>
+            <a class="key dark wide"><span class="sub">ALT</span><span>Visit Campus</span></a>
+            <a class="key"><span class="sub">F3</span><span>EMC</span></a>
+            <a class="key wide"><span class="sub">CTRL</span><span>Learn More</span></a>
+            <a class="key dark go"><span class="sub">↵</span><span>Apply</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="note">Left: a black rail with vertical college name and page numbers, where the green square marks the current page. Top: folder-style tabs, then a chrome bar. The giant "CICS" is half black, half silver gradient. The call-to-action buttons are a cluster of keyboard keys: Learn More, Visit Campus, Apply (Enter key) and shortcut keys to each program.</p>
+  </section>
+
+  <section>
+    <p class="tag">03 · Programs</p><h2>Programs as access badges</h2>
+    <div class="grid g3">
+      <div class="badge"><div class="head"><span>ACCESS · UNDERGRAD</span><span class="slot"></span></div>
+        <div class="bd"><div><span class="code">IT</span><h3>BS Information Technology</h3></div><div class="chip"><i></i><i></i><i></i><i></i></div>
+        <p>Systems, networks and web solutions for real-world organizations.</p></div>
+        <div class="barcode"></div><div class="foot"><span>ID · BSIT-01</span><span>View program →</span></div></div>
+      <div class="badge"><div class="head"><span>ACCESS · UNDERGRAD</span><span class="slot"></span></div>
+        <div class="bd"><div><span class="code">CS</span><h3>BS Computer Science</h3></div><div class="chip"><i></i><i></i><i></i><i></i></div>
+        <p>Algorithms, AI and software engineering foundations.</p></div>
+        <div class="barcode"></div><div class="foot"><span>ID · BSCS-02</span><span>View program →</span></div></div>
+      <div class="badge"><div class="head"><span>ACCESS · UNDERGRAD</span><span class="slot"></span></div>
+        <div class="bd"><div><span class="code">EMC</span><h3>BS Entertainment &amp; Multimedia</h3></div><div class="chip"><i></i><i></i><i></i><i></i></div>
+        <p>Game development and digital animation tracks.</p></div>
+        <div class="barcode"></div><div class="foot"><span>ID · BSEMC-03</span><span>View program →</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="tag">04 · Announcements & achievements</p><h2>Terminal log + hex medals</h2>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));align-items:start">
+      <div class="term">
+        <div class="bar"><span><i></i><i></i><i></i></span><span>cics@dlsud:~/announcements</span></div>
+        <ul>
+          <li><span class="d">11.24</span><span class="k g">DEADLINE</span><span class="t">Enlistment for 2nd semester closes</span></li>
+          <li><span class="d">11.28</span><span class="k">SEMINAR</span><span class="t">Intro to Cloud Computing, AVR</span></li>
+          <li><span class="d">12.03</span><span class="k">CONTEST</span><span class="t">Inter-college hackathon sign-ups</span></li>
+          <li><span class="d">&gt;</span><span></span><span class="t"><span class="cur"></span></span></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <p class="tag" style="margin-bottom:14px">Student achievements</p>
+        <div class="medals">
+          <div class="hex"><div><span><b>1st</b>HACKATHON</span></div></div>
+          <div class="hex dark"><div><span><b>40+</b>CERTIFIED</span></div></div>
+          <div class="hex"><div><span><b>Top</b>BOARD</span></div></div>
+        </div>
+      </div>
+    </div>
+    <p class="note">Dates and numbers are placeholders.</p>
+  </section>
+
+  <section>
+    <p class="tag">05 · Typography</p><h2>Type system</h2>
+    <div class="grid g3">
+      <div class="panel"><div class="mega" style="font-size:72px">A<span class="silver">a</span></div><p class="tag" style="margin:10px 0">Space Grotesk Bold · mega type, black + silver gradient</p></div>
+      <div class="panel"><div style="font-size:56px;font-weight:600">Aa</div><p class="tag" style="margin:10px 0">Inter · body</p></div>
+      <div class="panel"><div style="font-family:var(--f-mono);font-size:56px;font-weight:700">{ }</div><p class="tag" style="margin:10px 0">JetBrains Mono · keys, labels, logs</p></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="tag">06 · Illustrator notes</p><h2>How each signature piece is built</h2>
+    <ul class="rules">
+      <li><b>Silver gradient (main):</b> linear, top to bottom: #FFFFFF 0%, #E3E6EA 35%, #B7BDC4 55%, #DDE0E4 75%, #9AA1A9 100%. Chrome bar, medals, chips.</li>
+      <li><b>Soft silver:</b> #FFFFFF, #EEF0F2 60%, #D6DADF 100%. Panels, badges, key tops. <b>Dark metal:</b> #4A5057, #2C3035 50%, #111214 100%. Rail, badge headers, dark keys.</li>
+      <li><b>Silver text:</b> #5E656D, #A3AAB2 30%, #3A3F45 52%, #7C848D 72%, #2C3035 100%. Darker &quot;gunmetal&quot; silver so it never fades into the light background. Fill for the second half of mega words (Type &gt; Create Outlines, then apply the gradient).</li>
+      <li><b>Chrome bar:</b> 24px rectangle with the main silver gradient, 1px white line on top, 1px Gunmetal line on the bottom.</li>
+      <li><b>Keycap:</b> Steel-to-Gunmetal gradient rectangle (base), then a soft-silver rectangle inset 4px on the top and sides and 12px at the bottom. Dark keys use Black + dark metal. Small label top-left in mono 9px.</li>
+      <li><b>Mega type:</b> Space Grotesk Bold, tight tracking (-4%). Split a word: first half solid black, second half silver text gradient. No outline fonts.</li>
+      <li><b>Access badge:</b> black header strip with a Chrome 2 slot, program code in solid mono, silver 4-square chip, barcode of 1–4px black bars, footer row.</li>
+      <li><b>Terminal:</b> Black body, Graphite title bar with 3 Steel squares, mono text, Chrome 3 tags, blinking block cursor.</li>
+      <li><b>Hex medal:</b> Gunmetal/Steel/Gunmetal hexagon with a hexagon 6px smaller in the main silver gradient on top. Dark variant: Black + dark metal.</li>
+      <li><b>Side rail:</b> 56px black bar, college name rotated 90°, page numbers 01–06.</li>
+      <li><b>Green rule:</b> DLSU-D green only marks "active / on": current page, Enter key light, deadline tag.</li>
+      <li>Gradients only for metal (the 4 above). No shadows, blur or transparency. Strokes 1px.</li>
+      <li>Layout: 1200px width, 24px gutters, 80px between sections.</li>
+    </ul>
+  </section>
+
+  <section class="sitemap">
+    <p class="tag">07 · Scope</p><h2>Pages 1–3</h2>
+    <div class="grid g3">
+      <div class="panel"><h3>01 Home</h3><ol><li>Banner: mega type + key cluster</li><li>About quick intro</li><li>Programs: access badges</li><li>Announcements: terminal log</li><li>Achievements: hex medals</li><li>CTA: Apply / Visit / Counselor keys</li></ol></div>
+      <div class="panel"><h3>02 About Us</h3><ol><li>College profile</li><li>Mission, vision, core values</li><li>History timeline</li><li>Message from the Dean</li><li>Organizational structure</li><li>Accreditations & affiliations</li></ol></div>
+      <div class="panel"><h3>03 Programs</h3><ol><li>BSIT: description, curriculum, careers</li><li>BSCS: description, curriculum, careers</li><li>Optional: BSIS / BSEMC</li><li>Graduate programs</li><li>Specializations & tracks</li><li>Downloadable prospectus</li></ol></div>
+    </div>
+  </section>
+
+  <footer>// Placeholder logo, dates and copy. Swap in official assets and content later.</footer>
+</div>
+</body>
+</html>
