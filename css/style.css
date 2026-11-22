@@ -258,6 +258,9 @@ a.badge:hover{transform:translateY(-4px);border-color:var(--black)}
 .node b{display:block;font-family:var(--f-head);font-size:17px}
 .node.top{background:var(--metal-dark);color:var(--white);border-color:var(--black)}
 .node.top .role{color:var(--steel)}
+.node .mail{display:block;margin-top:4px;font-family:var(--f-mono);font-size:12px;color:inherit;word-break:break-all}
+.portrait .ph{position:relative;overflow:hidden}
+.portrait .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .vline{width:2px;height:28px;background:var(--gunmetal)}
 .branch{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;width:100%;position:relative;padding-top:28px}
 .branch::before{content:"";position:absolute;top:0;left:calc(100%/6);right:calc(100%/6);height:2px;background:var(--gunmetal)}
@@ -378,12 +381,13 @@ a.badge:hover{transform:translateY(-4px);border-color:var(--black)}
 
 /* Faculty directory cards */
 .facs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px}
-.fac{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:center;background:var(--metal-soft);border:1px solid var(--chrome-3);padding:14px}
+.fac{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:start;background:var(--metal-soft);border:1px solid var(--chrome-3);padding:14px}
 .fac .av{width:56px;height:56px;background:var(--metal-dark);color:var(--chrome-3);display:grid;place-items:center;font-family:var(--f-mono);font-weight:700;font-size:15px;border:2px solid var(--steel)}
 .fac .id{font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;color:var(--steel)}
 .fac h3{font-size:16px;margin:2px 0 4px}
 .fac .pos{font-size:12px;color:var(--gunmetal)}
-.fac .deg{display:inline-block;margin-top:6px;font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;background:var(--dlsud);color:var(--white);padding:1px 6px}
+.fac .degs{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.fac .deg{display:inline-block;cursor:help;font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;background:var(--dlsud);color:var(--white);padding:1px 6px}
 
 /* Steps */
 .steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:12px}
@@ -433,3 +437,106 @@ a.logo-tile:hover{border-color:var(--black);transform:translateY(-3px)}
 @media (max-width:720px){
   .form{grid-template-columns:1fr}
 }
+
+/* =========================================================
+   Secret themes: click the diamond at the top of the side rail.
+   Cycle: normal (silver) -> dark -> green (DLSU-D green & white) -> normal.
+   Set on <html data-theme="..."> by js/theme.js.
+   ========================================================= */
+
+/* The diamond: looks like an ornament, acts as the switch */
+.rail .mark{cursor:pointer;transition:transform .35s ease,background .3s,box-shadow .3s}
+.rail .mark:hover{box-shadow:0 0 10px rgba(255,255,255,.35)}
+.rail .mark.spin{transform:rotate(225deg)}
+html[data-theme] body{transition:background-color .3s,color .3s}
+
+/* Little toast that names the theme for a moment */
+.theme-toast{position:fixed;left:calc(var(--rail) + 12px);top:14px;z-index:60;font-family:var(--f-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  background:var(--black);color:var(--white);border:1px solid var(--gunmetal);padding:6px 10px;opacity:0;transform:translateY(-6px);pointer-events:none;transition:opacity .2s,transform .2s}
+.theme-toast.show{opacity:1;transform:none}
+.theme-toast::before{content:"";display:inline-block;width:8px;height:8px;background:var(--dlsud);margin-right:8px}
+
+/* ---------- Dark mode ---------- */
+html[data-theme="dark"]{
+  --chrome-1:#1C1F23;
+  --chrome-2:#141619;
+  --gunmetal:#A3AAB2;
+  --metal-soft:linear-gradient(180deg,#2A2E33 0%,#22262A 60%,#1B1E22 100%);
+  color-scheme:dark;
+}
+html[data-theme="dark"] body{color:#E8EAED}
+html[data-theme="dark"] .silver{background:var(--metal-text-light);-webkit-background-clip:text;background-clip:text}
+html[data-theme="dark"] :is(.site-header,.hero,.page-hero,.panel,.badge,.badge .foot,.track,.fac,.steps li,.year,.year li,.node,.logo-tile,.value .face,.spec div,.tabs,.tabs a,.program,.menu-btn){border-color:#363A40}
+html[data-theme="dark"] :is(.sh .line,.program h3.sub::after){background:#363A40}
+html[data-theme="dark"] :is(.spec,.sign,.steps li){border-top-color:var(--steel)}
+html[data-theme="dark"] .link{border-bottom-color:var(--chrome-3)}
+html[data-theme="dark"] :is(a.badge:hover,a.logo-tile:hover){border-color:var(--chrome-3)}
+html[data-theme="dark"] .tabs a:hover{color:var(--white)}
+html[data-theme="dark"] .tabs a[aria-current="page"]{background:#0B0C0E}
+html[data-theme="dark"] .brand .logo{border:1px solid var(--gunmetal)}
+html[data-theme="dark"] .menu-btn i{background:var(--white);box-shadow:0 6px 0 var(--white),0 -6px 0 var(--white)}
+html[data-theme="dark"] .barcode{background:repeating-linear-gradient(90deg,var(--chrome-3) 0 2px,transparent 2px 5px,var(--chrome-3) 5px 9px,transparent 9px 11px,var(--chrome-3) 11px 12px,transparent 12px 16px)}
+html[data-theme="dark"] .key .sub{color:#5E656D}
+html[data-theme="dark"] .key.dark .sub{color:var(--steel)}
+html[data-theme="dark"] .section.dark{background:linear-gradient(180deg,#0E0F11 0%,#08090A 100%)}
+html[data-theme="dark"] .rail .mark{background:var(--metal-dark);border:1px solid var(--steel)}
+html[data-theme="dark"] .field :is(input,textarea){background:#1C1F23;color:#E8EAED;border-color:#4A5057;border-bottom-color:var(--chrome-3)}
+html[data-theme="dark"] .placeholder{background:#3A3F45;color:var(--chrome-2)}
+
+/* ---------- Green mode (DLSU-D green & white) ---------- */
+html[data-theme="green"]{
+  --chrome-1:#F1F8F4;
+  --chrome-2:#DDEFE4;
+  --chrome-3:#B4D7C2;
+  --steel:#7FB79A;
+  --gunmetal:#3B6E53;
+  --graphite:#0E4A2B;
+  --black:#06301B;
+  /* Soft two-stop gradients only: gentle depth, no metallic banding or sheen */
+  --metal:linear-gradient(180deg,#E8F5ED 0%,#D3EBDD 100%);
+  --metal-soft:linear-gradient(180deg,#FFFFFF 0%,#F2F9F5 100%);
+  --metal-dark:linear-gradient(180deg,#0A7F45 0%,#00613A 100%);
+  --metal-text:linear-gradient(180deg,#1A8A52 0%,#00613A 100%);
+  --metal-text-light:linear-gradient(180deg,#FFFFFF 0%,#DDF1E5 100%);
+}
+html[data-theme="green"] .chrome{background:linear-gradient(90deg,#00703C 0%,#2FA066 100%);border-top-color:#00703C;border-bottom-color:#00613A}
+html[data-theme="green"] .chrome.thin{background:linear-gradient(90deg,#00703C 0%,#2FA066 100%)}
+html[data-theme="green"] .section.dark{background:linear-gradient(160deg,#0A7F45 0%,#005C33 100%)}
+html[data-theme="green"] .cta{background:linear-gradient(160deg,#00552F 0%,#003F23 100%)}
+html[data-theme="green"] .site-footer{background:linear-gradient(180deg,#06301B 0%,#04251A 100%)}
+html[data-theme="green"] :is(.section.dark .muted,.section.dark .tag,.section.dark .intro,.section.dark .medal p,.section.dark .track p,.section.dark .chev,.timeline p,.timeline .yr,.cta p,.cta .chev){color:#D6EEDF}
+html[data-theme="green"] .site-footer{background:#06301B}
+html[data-theme="green"] body{background:#E8F4ED}
+/* Accents that sat on green surfaces switch to white so they stay visible */
+html[data-theme="green"] .rail a[aria-current="page"]{background:var(--white);color:#00703C}
+html[data-theme="green"] .tabs a[aria-current="page"]{box-shadow:inset 0 -3px 0 var(--white)}
+html[data-theme="green"] .rail .mark{background:var(--white)}
+html[data-theme="green"] .rail .v{color:#CFEBDA}
+html[data-theme="green"] .rail{color:#CFEBDA}
+html[data-theme="green"] .rail a{color:#A9D8BC}
+/* Keycaps, flat: solid fill, crisp edge, a plain solid ledge underneath (no blur or sheen) */
+html[data-theme="green"] .key{background:linear-gradient(180deg,#FFFFFF 0%,#EEF7F1 100%);border:2px solid #00703C;border-radius:2px;box-shadow:0 4px 0 #00703C}
+html[data-theme="green"] .key:hover{box-shadow:0 2px 0 #00703C}
+html[data-theme="green"] .key:active{box-shadow:0 0 0 #00703C}
+html[data-theme="green"] .key::before{background:transparent;border:0;box-shadow:none}
+html[data-theme="green"] .key:active::before{background:#E8F4ED}
+html[data-theme="green"] .key.dark{background:linear-gradient(180deg,#0A7F45 0%,#00613A 100%);border-color:#00703C;color:#FFFFFF;box-shadow:0 4px 0 #003A1F}
+html[data-theme="green"] .key.dark:hover{box-shadow:0 2px 0 #003A1F}
+html[data-theme="green"] .key.dark:active{box-shadow:0 0 0 #003A1F}
+html[data-theme="green"] .key.dark::before{background:transparent;border:0;box-shadow:none}
+html[data-theme="green"] .key.dark:active::before{background:#005C32}
+html[data-theme="green"] .key.dark .sub{color:#A9D8BC}
+html[data-theme="green"] .key.go::after{background:#7ED9A2}
+html[data-theme="green"] .key.dark.go::after{background:var(--white)}
+html[data-theme="green"] .hex{background:#FFFFFF}
+html[data-theme="green"] .hex div{background:linear-gradient(180deg,#FFFFFF 0%,#E3F3E9 100%);color:#00703C}
+html[data-theme="green"] .hex.dark{background:#FFFFFF}
+html[data-theme="green"] .hex.dark div{background:linear-gradient(180deg,#00613A 0%,#00472A 100%);color:#FFFFFF}
+html[data-theme="green"] .value{background:linear-gradient(180deg,#2FA066 0%,#00613A 100%);padding:0 0 4px}
+html[data-theme="green"] :is(.portrait,.map,.dl,.chip,.sh .tick){background:var(--metal)}
+html[data-theme="green"] .section.dark .sh .num{color:#00703C}
+html[data-theme="green"] .term .k.g{background:var(--white);color:#00703C}
+html[data-theme="green"] .timeline li.now::before{background:var(--white);border-color:var(--white)}
+html[data-theme="green"] .careers li::before{color:#A9D8BC}
+html[data-theme="green"] .theme-toast{background:#00703C;border-color:#2FA066}
+html[data-theme="green"] .theme-toast::before{background:var(--white)}
