@@ -1,5 +1,5 @@
 /* =========================================================
-   CICS · DLSU-D  —  Shared stylesheet (pages 01–03)
+   CICS · DLSU-D  —  Shared stylesheet (pages 01–06)
    Design direction v0.7 (see design/moodboard.html)
    Silver/black "hardware" look. Gradients only for metal.
    ========================================================= */
@@ -359,3 +359,65 @@ a.badge:hover{transform:translateY(-4px);border-color:var(--black)}
   .sh .chev{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* =========================================================
+   Pages 04–06: Faculty, Services, Contact
+   ========================================================= */
+
+/* Faculty directory cards */
+.facs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px}
+.fac{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:center;background:var(--metal-soft);border:1px solid var(--chrome-3);padding:14px}
+.fac .av{width:56px;height:56px;background:var(--metal-dark);color:var(--chrome-3);display:grid;place-items:center;font-family:var(--f-mono);font-weight:700;font-size:15px;border:2px solid var(--steel)}
+.fac .id{font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;color:var(--steel)}
+.fac h3{font-size:16px;margin:2px 0 4px}
+.fac .pos{font-size:12px;color:var(--gunmetal)}
+.fac .deg{display:inline-block;margin-top:6px;font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;background:var(--dlsud);color:var(--white);padding:1px 6px}
+
+/* Steps */
+.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:12px}
+.steps li{background:var(--metal-soft);border:1px solid var(--chrome-3);border-top:3px solid var(--black);padding:20px}
+.steps .n{font-family:var(--f-mono);font-size:28px;font-weight:700;color:var(--steel)}
+.steps h3{font-size:18px;margin:6px 0}
+.steps p{font-size:14px;color:var(--gunmetal)}
+
+/* Links inside cards */
+.track a,.panel a,.spec a{color:inherit;text-decoration:underline;text-decoration-color:var(--steel);text-underline-offset:3px}
+.track a:hover,.panel a:hover,.spec a:hover{text-decoration-color:var(--dlsud)}
+.panel ol{margin-top:8px}
+
+/* Map */
+.map-grid{grid-template-columns:1fr 1.6fr;align-items:start}
+.map{background:var(--metal);padding:8px;border:1px solid var(--steel)}
+.map iframe{display:block;width:100%;aspect-ratio:16/10;border:0;background:var(--chrome-2)}
+
+/* Inquiry form */
+.form{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:860px}
+.form .full{grid-column:1/-1}
+.field label{display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gunmetal);margin-bottom:8px}
+.field input,.field textarea{width:100%;font:inherit;color:var(--black);background:var(--white);border:1px solid var(--steel);border-bottom:2px solid var(--black);padding:12px 14px;border-radius:0}
+.field textarea{resize:vertical}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--dlsud)}
+.field [aria-invalid="true"]{border-color:#B3261E}
+.form-foot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.form button.key{border:0;cursor:pointer}
+.status{font-family:var(--f-mono);font-size:13px}
+.status.ok{color:var(--dlsud)}
+.status.err{color:#B3261E}
+
+/* Social tiles */
+a.logo-tile{text-decoration:none;transition:border-color .2s,transform .2s}
+a.logo-tile:hover{border-color:var(--black);transform:translateY(-3px)}
+.section.dark .logo-tile{background:var(--metal-dark);border-color:var(--gunmetal);color:var(--white)}
+.section.dark .logo-tile span:not(.mark){color:var(--steel)}
+.section.dark .logo-tile .mark{background:var(--metal);color:var(--black)}
+.section.dark a.logo-tile:hover{border-color:var(--chrome-3)}
+.logo-tile.off{opacity:.5}
+.panel.dark .spec dt{color:var(--chrome-3)}
+.panel.dark .spec div{border-color:var(--gunmetal)}
+
+@media (max-width:960px){
+  .map-grid{grid-template-columns:1fr}
+}
+@media (max-width:720px){
+  .form{grid-template-columns:1fr}
+}
