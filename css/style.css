@@ -401,6 +401,19 @@ a.badge:hover{transform:translateY(-4px);border-color:var(--black)}
 .fac .pos{font-size:12px;color:var(--gunmetal)}
 .fac .degs{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
 .fac .deg{display:inline-block;cursor:help;font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;background:var(--dlsud);color:var(--white);padding:1px 6px}
+.fac[role="button"]{cursor:pointer;transition:border-color .15s,transform .15s}
+.fac[role="button"]:hover{border-color:var(--gunmetal);transform:translateY(-2px)}
+.fac[role="button"]:focus-visible{outline:2px solid var(--dlsud);outline-offset:2px}
+
+/* Faculty profile pop-out */
+.profile-pop{width:min(920px,calc(100vw - 32px));max-height:calc(100vh - 32px);overflow:auto;padding:40px;background:var(--chrome-1);color:inherit;border:1px solid var(--steel);border-top:3px solid var(--black)}
+.profile-pop::backdrop{background:rgba(17,18,20,.6)}
+.profile-pop .pp-close{position:absolute;top:12px;right:12px;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;background:var(--metal-soft);color:inherit;border:1px solid var(--chrome-3);padding:6px 10px;cursor:pointer}
+.profile-pop .pp-close:hover{border-color:var(--gunmetal)}
+.profile-pop .portrait .ph{font-size:48px;font-weight:700;color:var(--chrome-3)}
+.profile-pop .spec dd{max-width:60%}
+@media (max-width:960px){.profile-pop{padding:48px 20px 24px}}
+html[data-theme="dark"] .profile-pop{border-color:#363A40;border-top-color:var(--steel)}
 
 /* Steps */
 .steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:12px}

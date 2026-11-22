@@ -11,6 +11,7 @@
   <link rel="icon" type="image/svg+xml" href="images/cics-logo.svg">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/theme.js"></script>
+  <script src="js/faculty.js" defer></script>
 </head>
 <body>
 <div class="shell">
@@ -60,9 +61,8 @@
           </div>
           <nav class="jump" aria-label="On this page">
             <a class="key sm" href="#directory"><span class="sub">01</span><span>Faculty</span></a>
-            <a class="key sm" href="#profile"><span class="sub">02</span><span>Profile</span></a>
-            <a class="key sm" href="#staff"><span class="sub">03</span><span>Staff</span></a>
-            <a class="key sm dark" href="#labs"><span class="sub">04</span><span>Labs</span></a>
+            <a class="key sm" href="#staff"><span class="sub">02</span><span>Staff</span></a>
+            <a class="key sm dark" href="#labs"><span class="sub">03</span><span>Labs</span></a>
           </nav>
         </div>
       </section>
@@ -71,7 +71,7 @@
       <section class="section" id="directory" aria-labelledby="dir-title">
         <div class="container">
           <div class="sh"><span class="num">01</span><h2 id="dir-title">Faculty Directory</h2><span class="line"></span><span class="chev">&gt;&gt;&gt;</span><span class="tick"></span></div>
-          <p class="intro">Full-time faculty of the two CICS programs and their degrees (hover a badge for the full degree name), as listed on the official DLSU-D BSCS and BSIT program pages. <span class="placeholder">Photos, positions and fields of expertise: add once confirmed with the college.</span></p>
+          <p class="intro">Full-time faculty of the two CICS programs and their degrees (hover a badge for the full degree name), as listed on the official DLSU-D BSCS and BSIT program pages. Click a card to open that faculty member's profile. <span class="placeholder">Photos, positions and fields of expertise: add once confirmed with the college.</span></p>
 
           <h3 class="tag" style="margin-bottom:14px">Computer Science · 14 faculty</h3>
           <div class="facs" style="margin-bottom:40px">
@@ -207,36 +207,34 @@
         </div>
       </section>
 
-      <!-- Profile template -->
-      <section class="section alt" id="profile" aria-labelledby="prof-title">
-        <div class="container">
-          <div class="sh"><span class="num">02</span><h2 id="prof-title">Faculty Profile</h2><span class="line"></span><span class="chev">&gt;&gt;&gt;</span><span class="tick"></span></div>
-          <p class="intro">Each faculty member gets a full profile like this one. <span class="placeholder">Template. Fill in from each faculty member's details.</span></p>
-          <article class="dean">
-            <figure class="portrait" style="margin:0">
-              <div class="ph" role="img" aria-label="Faculty photo (placeholder)">[ PHOTO ]</div>
-              <figcaption><span>FACULTY · CICS</span><span>IMG_002</span></figcaption>
-            </figure>
-            <div>
-              <p class="tag" style="margin-bottom:8px">// profile.txt</p>
-              <h3 style="font-size:30px">[Faculty Name], [Degree]</h3>
-              <p class="muted" style="margin:6px 0 20px">[Position] · [Department]</p>
-              <dl class="spec" style="margin-bottom:24px">
-                <div><dt>Field of expertise</dt><dd>[e.g. Machine Learning]</dd></div>
-                <div><dt>Research interests</dt><dd>[e.g. Computer Vision, NLP]</dd></div>
-                <div><dt>Teaches</dt><dd>[e.g. Intro to Machine Learning]</dd></div>
-              </dl>
-              <h3 class="tag" style="margin-bottom:8px">Short bio</h3>
-              <p class="muted">[Two to three sentences on the faculty member's background, teaching and research work.]</p>
-            </div>
-          </article>
-        </div>
-      </section>
+      <!-- Faculty profile pop-out (filled from the clicked card by js/faculty.js) -->
+      <dialog class="profile-pop" id="profile-pop" aria-labelledby="pp-name">
+        <button type="button" class="pp-close" aria-label="Close profile">ESC ✕</button>
+        <article class="dean">
+          <figure class="portrait" style="margin:0">
+            <div class="ph" id="pp-photo" role="img" aria-label="Faculty photo">[ PHOTO ]</div>
+            <figcaption><span>FACULTY · CICS</span><span id="pp-id">ID</span></figcaption>
+          </figure>
+          <div>
+            <p class="tag" style="margin-bottom:8px">// profile.txt</p>
+            <h3 id="pp-name" style="font-size:30px">Faculty Name</h3>
+            <p class="muted" id="pp-pos" style="margin:6px 0 20px">Position · Department</p>
+            <dl class="spec" style="margin-bottom:24px">
+              <div><dt>Degrees</dt><dd id="pp-degs"></dd></div>
+              <div><dt>Field of expertise</dt><dd><span class="placeholder">To follow</span></dd></div>
+              <div><dt>Research interests</dt><dd><span class="placeholder">To follow</span></dd></div>
+              <div><dt>Teaches</dt><dd><span class="placeholder">To follow</span></dd></div>
+            </dl>
+            <h3 class="tag" style="margin-bottom:8px">Short bio</h3>
+            <p class="muted"><span class="placeholder">Full profile to follow once confirmed with the college.</span></p>
+          </div>
+        </article>
+      </dialog>
 
       <!-- Administrative staff -->
       <section class="section" id="staff" aria-labelledby="staff-title">
         <div class="container">
-          <div class="sh"><span class="num">03</span><h2 id="staff-title">Administrative Staff</h2><span class="line"></span><span class="chev">&gt;&gt;&gt;</span><span class="tick"></span></div>
+          <div class="sh"><span class="num">02</span><h2 id="staff-title">Administrative Staff</h2><span class="line"></span><span class="chev">&gt;&gt;&gt;</span><span class="tick"></span></div>
           <p class="intro">The people and offices that keep the college running, as listed by the CICS Student Government.</p>
           <div class="grid g3">
             <div class="track"><span class="idx">[S1]</span><span class="prog">OFFICE OF THE DEAN</span><h3>Dean &amp; Associate Dean</h3><p>Dean Marivic R. Mitschek, MIT, and Associate Dean Rolando B. Barrameda, PhD, lead the college, set academic direction, and approve programs, faculty loads and college policies.</p></div>
@@ -252,7 +250,7 @@
       <!-- Labs -->
       <section class="section dark" id="labs" aria-labelledby="labs-title">
         <div class="container">
-          <div class="sh"><span class="num">04</span><h2 id="labs-title">Research Groups &amp; Laboratories</h2><span class="line"></span><span class="chev">&gt;&gt;&gt;</span><span class="tick"></span></div>
+          <div class="sh"><span class="num">03</span><h2 id="labs-title">Research Groups &amp; Laboratories</h2><span class="line"></span><span class="chev">&gt;&gt;&gt;</span><span class="tick"></span></div>
           <p class="intro">CICS classes run in the ICT computer laboratories, rooms ICT-201 to ICT-213. Computer Lab: local 3269.</p>
           <div class="grid g2">
             <div class="track"><span class="idx">[L1]</span><span class="prog">BSCS · COMPUTER SCIENCE</span><h3>ICT-201 · 203 · 205 · 207 · 209</h3><p>Labs mainly used by Computer Science classes: programming, algorithms, machine learning, game development and thesis work.</p></div>
