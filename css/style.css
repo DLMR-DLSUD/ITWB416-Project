@@ -72,7 +72,15 @@ ul,ol{margin:0}
 .site-header{position:sticky;top:0;z-index:20;background:var(--metal-soft);border-bottom:1px solid var(--chrome-3)}
 .nav{display:flex;justify-content:space-between;align-items:stretch;min-height:64px}
 .brand{display:flex;align-items:center;gap:12px;padding:0 var(--gutter);text-decoration:none;font-family:var(--f-head);font-weight:700;line-height:1.1}
-.brand .logo{width:38px;height:38px;background:var(--black);color:var(--white);display:grid;place-items:center;font-family:var(--f-mono);font-size:10px;letter-spacing:.05em}
+.brand .logo{width:38px;height:41px;display:block;flex:none}
+/* Header shield: two colours that follow the theme */
+:root{--logo-ink:var(--black);--logo-paper:#FFFFFF}
+html[data-theme="dark"]{--logo-ink:#E8EAED;--logo-paper:#141619}
+html[data-theme="green"]{--logo-ink:#00703C;--logo-paper:#FFFFFF}
+.logo .ink{fill:var(--logo-ink)}
+.logo .paper{fill:var(--logo-paper)}
+.logo .trace{stroke:var(--logo-paper)}
+.logo :is(.ink,.paper,.trace){transition:fill .3s,stroke .3s}
 .brand small{display:block;font-family:var(--f-mono);font-weight:500;font-size:10px;letter-spacing:.14em;color:var(--gunmetal);text-transform:uppercase}
 .tabs{display:flex;list-style:none;padding:0;font-family:var(--f-mono);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
 .tabs li{display:flex}
@@ -363,8 +371,12 @@ a.badge:hover{transform:translateY(-4px);border-color:var(--black)}
   .term li{grid-template-columns:56px 1fr}
   .term li .t{grid-column:1/-1}
   .term li .go-link{grid-column:1/-1}
-  .branch{grid-template-columns:1fr;padding-top:0}
+  .branch,.branch.two{grid-template-columns:1fr;padding-top:0}
   .branch::before,.branch > div::before{display:none}
+  .node{min-width:0;width:100%}
+  .page-hero .mega{font-size:clamp(44px,17vw,150px)}
+  .sh{gap:10px}
+  .sh .line{min-width:12px}
   .branch > div{margin-top:20px}
   .timeline::before{left:7px;right:auto;top:0;bottom:0;width:2px;height:auto}
   .timeline li{padding:0 0 28px 36px}
@@ -383,6 +395,7 @@ a.badge:hover{transform:translateY(-4px);border-color:var(--black)}
 .facs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px}
 .fac{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:start;background:var(--metal-soft);border:1px solid var(--chrome-3);padding:14px}
 .fac .av{width:56px;height:56px;background:var(--metal-dark);color:var(--chrome-3);display:grid;place-items:center;font-family:var(--f-mono);font-weight:700;font-size:15px;border:2px solid var(--steel)}
+.fac img.av{display:block;object-fit:cover;object-position:center 30%}
 .fac .id{font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;color:var(--steel)}
 .fac h3{font-size:16px;margin:2px 0 4px}
 .fac .pos{font-size:12px;color:var(--gunmetal)}
@@ -465,6 +478,7 @@ html[data-theme="dark"]{
   color-scheme:dark;
 }
 html[data-theme="dark"] body{color:#E8EAED}
+html[data-theme="dark"] .brand{color:#E8EAED}
 html[data-theme="dark"] .silver{background:var(--metal-text-light);-webkit-background-clip:text;background-clip:text}
 html[data-theme="dark"] :is(.site-header,.hero,.page-hero,.panel,.badge,.badge .foot,.track,.fac,.steps li,.year,.year li,.node,.logo-tile,.value .face,.spec div,.tabs,.tabs a,.program,.menu-btn){border-color:#363A40}
 html[data-theme="dark"] :is(.sh .line,.program h3.sub::after){background:#363A40}
@@ -473,7 +487,7 @@ html[data-theme="dark"] .link{border-bottom-color:var(--chrome-3)}
 html[data-theme="dark"] :is(a.badge:hover,a.logo-tile:hover){border-color:var(--chrome-3)}
 html[data-theme="dark"] .tabs a:hover{color:var(--white)}
 html[data-theme="dark"] .tabs a[aria-current="page"]{background:#0B0C0E}
-html[data-theme="dark"] .brand .logo{border:1px solid var(--gunmetal)}
+
 html[data-theme="dark"] .menu-btn i{background:var(--white);box-shadow:0 6px 0 var(--white),0 -6px 0 var(--white)}
 html[data-theme="dark"] .barcode{background:repeating-linear-gradient(90deg,var(--chrome-3) 0 2px,transparent 2px 5px,var(--chrome-3) 5px 9px,transparent 9px 11px,var(--chrome-3) 11px 12px,transparent 12px 16px)}
 html[data-theme="dark"] .key .sub{color:#5E656D}
